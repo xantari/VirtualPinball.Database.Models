@@ -1,3 +1,3 @@
-# Virtual Pinball Database Models [![Build status](https://ci.appveyor.com/api/projects/status/vxbnw7ooxh288u42/branch/master?svg=true)](https://ci.appveyor.com/project/xantari/virtualpinball-database-models/branch/master) [![NuGet tag](https://img.shields.io/badge/nuget-VirtualPinball.Database.Models-blue.svg)](https://www.nuget.org/packages?q=VirtualPinball.Database.Models)
+# Virtual Pinball Database Models [![Build status](https://ci.appveyor.com/api/projects/status/vxbnw7ooxh288u42/branch/main?svg=true)](https://ci.appveyor.com/project/xantari/virtualpinball-database-models/branch/main) [![NuGet tag](https://img.shields.io/badge/nuget-VirtualPinball.Database.Models-blue.svg)](https://www.nuget.org/packages?q=VirtualPinball.Database.Models)
 
 Virtual Pinball Database Model database schema in C#
