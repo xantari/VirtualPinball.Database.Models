@@ -23,7 +23,7 @@ deploy:
   api_key:
     secure: B4zQy3jj3lThBxJ+/kHkyr01yZWSfk0djEyOjyl4YfLzG/BhXRw/XGMUSzFrGOYl
   on:
-    branch: master
+    branch: main
 skip_commits:
   files:
     - .github/*
