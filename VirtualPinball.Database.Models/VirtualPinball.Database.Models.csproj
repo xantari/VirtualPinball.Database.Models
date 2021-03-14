@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <Authors>https://github.com/xantari</Authors>
+        <Company />
+        <Product />
+        <Description>Virtual Pinball Models</Description>
+        <RepositoryUrl>https://github.com/xantari/VirtualPinball.Databases</RepositoryUrl>
+        <RepositoryType>Git</RepositoryType>
+        <PackageProjectUrl>https://github.com/xantari/VirtualPinball.Databases</PackageProjectUrl>
+        <PackageTags>virtual pinball models</PackageTags>
+        <Version>1.0.0</Version>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    </ItemGroup>
+
+</Project>
