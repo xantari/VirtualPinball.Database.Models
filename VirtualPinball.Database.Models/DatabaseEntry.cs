@@ -43,7 +43,7 @@ namespace VirtualPinball.Database.Models
         public List<int> RelatedEntries { get; set; }
 
         [JsonIgnore]
-        public string DatabaseTagsString
+        public string TagsString
         {
             get
             {
