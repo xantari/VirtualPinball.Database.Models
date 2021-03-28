@@ -41,5 +41,16 @@ namespace VirtualPinball.Database.Models
         public List<string> Tags { get; set; }
         public List<string> ScreenshotUrls { get; set; }
         public List<int> RelatedEntries { get; set; }
+
+        [JsonIgnore]
+        public string DatabaseTagsString
+        {
+            get
+            {
+                if (Tags != null)
+                    return string.Join(", ", Tags.ToArray());
+                return string.Empty;
+            }
+        }
     }
 }
