@@ -12,7 +12,7 @@ namespace VirtualPinball.Database.Models
             DatabaseFormatVersion = 1;
         }
 
-        public DateTime LastRefreshDateUtc { get; set; }
+        public DateTime LastUpdateDateUtc { get; set; }
         public int DatabaseFormatVersion { get; set; }
         public int? CheckpointLocation { get; set; }
 
