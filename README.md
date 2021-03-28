@@ -8,7 +8,7 @@ Defines a standard format for cataloging virtual pinball related content with ab
 
 ```json
 {
-  "LastRefreshDateUtc": "2021-03-27T19:47:38.1024977Z",
+  "LastUpdateDateUtc": "2021-03-27T19:47:38.1024977Z",
   "DatabaseFormatVersion": 1,
   "Entries": [
   ]
@@ -19,7 +19,7 @@ Defines a standard format for cataloging virtual pinball related content with ab
 
 ```json
 {
-    "LastRefreshDateUtc": "2021-03-26T09:00:34.0881981Z",
+    "LastUpdateDateUtc": "2021-03-26T09:00:34.0881981Z",
     "DatabaseFormatVersion": 1,
     "Entries": [
       {
