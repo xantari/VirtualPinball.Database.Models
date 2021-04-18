@@ -13,12 +13,14 @@ namespace VirtualPinball.Database.Models
             Tags = new List<string>();
             RelatedEntries = new List<int>();
             AdditionalInfoUrls = new List<string>();
+            DirectDownloadUrls = new List<string>();
         }
 
         /// <summary>
         /// Unique File ID (Primary Key)
         /// </summary>
         public int Id { get; set; }
+        public string Status { get; set; }
         public MajorCategory MajorCategory { get; set; }
         public string Url { get; set; }
         public string Title { get; set; }
@@ -41,6 +43,7 @@ namespace VirtualPinball.Database.Models
         public List<string> Tags { get; set; }
         public List<string> ScreenshotUrls { get; set; }
         public List<int> RelatedEntries { get; set; }
+        public List<string> DirectDownloadUrls { get; set; }
 
         [JsonIgnore]
         public string TagsString

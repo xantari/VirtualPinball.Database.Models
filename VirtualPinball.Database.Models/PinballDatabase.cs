@@ -15,6 +15,8 @@ namespace VirtualPinball.Database.Models
         public DateTime LastUpdateDateUtc { get; set; }
         public int DatabaseFormatVersion { get; set; }
         public int? CheckpointLocation { get; set; }
+        public string ContactUrl { get; set; }
+        public string Description { get; set; }
 
         public List<DatabaseEntry> Entries { get; set; }
     }
