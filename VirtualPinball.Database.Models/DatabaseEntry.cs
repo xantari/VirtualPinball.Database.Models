@@ -20,6 +20,10 @@ namespace VirtualPinball.Database.Models
         /// Unique File ID (Primary Key)
         /// </summary>
         public int Id { get; set; }
+        /// <summary>
+        /// Alternate ID. This would be a unique ID from the external file provider
+        /// </summary>
+        public string ExternalId { get; set; }
         public string Status { get; set; }
         public MajorCategory MajorCategory { get; set; }
         public string Url { get; set; }
