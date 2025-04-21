@@ -34,6 +34,8 @@ namespace VirtualPinball.Database.Models
         [Description("Pup Pack")]
         PupPack,
         [Description("Other")]
-        Other
+        Other,
+        [Description("Tutorial")]
+        Tutorial,
     }
 }
